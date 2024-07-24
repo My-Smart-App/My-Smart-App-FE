@@ -12,6 +12,11 @@
     }
   ],
   "compilerOptions": {
-    "module": "NodeNext"
+    "module": "NodeNext",
+    "paths": {
+      "@/*": [
+        "./*" 
+      ]
+    },
   }
 }
